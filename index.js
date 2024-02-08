@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "O que é JavaScript?",
-      respostas: [
-        "Uma linguagem de programação para estilizar páginas web.",
-        "Uma linguagem de programação para interação do lado do servidor.",
-        "Uma linguagem de programação para tornar páginas web dinâmicas.",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em JavaScript?",
-      respostas: [
-        "Comparação estrita de valores e tipos.",
-        "Comparação de valores, ignorando os tipos.",
-        "Atribuição de valores.",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é um closure em JavaScript?",
-      respostas: [
-        "Uma função que não tem acesso ao escopo global.",
-        "Um objeto que contém métodos relacionados.",
-        "Uma função que tem acesso ao escopo onde foi criada, mesmo após sair desse escopo.",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Como declarar uma variável em JavaScript?",
-      respostas: [
-        "var myVar;",
-        "let myVar;",
-        "const myVar;",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Uma linguagem de marcação para criar páginas web.",
-        "Um objeto que representa a estrutura da página web e permite sua manipulação.",
-        "Uma biblioteca JavaScript para criação de gráficos interativos.",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a finalidade do método 'addEventListener' em JavaScript?",
-      respostas: [
-        "Para adicionar estilos a elementos HTML.",
-        "Para adicionar um evento a um elemento HTML.",
-        "Para criar uma nova variável.",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é JSON em JavaScript?",
-      respostas: [
-        "Uma linguagem de programação para manipulação de banco de dados.",
-        "Uma forma de representar dados estruturados em formato de texto.",
-        "Um método para declarar variáveis.",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
-      respostas: [
-        "Ambos são usados para declarar variáveis, sem diferença significativa.",
-        "let é usado para variáveis mutáveis, enquanto const é usado para variáveis imutáveis.",
-        "const é usado para variáveis mutáveis, enquanto let é usado para variáveis imutáveis.",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é o AJAX em JavaScript?",
-      respostas: [
-        "Uma biblioteca para criar animações em páginas web.",
-        "Uma técnica que permite atualizar partes de uma página sem recarregá-la completamente.",
-        "Um método para criar alertas em JavaScript.",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se realiza uma iteração em um array em JavaScript?",
-      respostas: [
-        "Com a estrutura 'if...else'.",
-        "Com o loop 'while'.",
-        "Com o loop 'for'.",
-      ],
-      correta: 2
-    },
-  ];
+  {
+    pergunta: "Qual é o nome completo do jogador Cristiano Ronaldo?",
+    respostas: [
+      "Cristiano Ronaldo dos Santos Aveiro",
+      "Cristiano Ronaldo de Lima",
+      "Cristiano Ronaldo da Silva",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Em que país Cristiano Ronaldo nasceu?",
+    respostas: [
+      "Portugal",
+      "Brasil",
+      "Espanha",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quantas vezes Cristiano Ronaldo ganhou a Bola de Ouro?",
+    respostas: [
+      "3 vezes",
+      "6 vezes",
+      "5 vezes",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual clube Cristiano Ronaldo jogou antes de se transferir para o Real Madrid?",
+    respostas: [
+      "Manchester United",
+      "Sporting de Portugal",
+      "Inter de Milão",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quantos gols Cristiano Ronaldo marcou na Copa do Mundo de 2018?",
+    respostas: [
+      "3 gols",
+      "6 gols",
+      "4 gols",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o recorde de gols marcados por Cristiano Ronaldo em uma única temporada da UEFA Champions League?",
+    respostas: [
+      "12 gols",
+      "17 gols",
+      "15 gols",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Aonde nasceu Cristiano Ronaldo?",
+    respostas: [
+      "Porto",
+      "Ilha da madeira",
+      "Bragança",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a altura aproximada de Cristiano Ronaldo?",
+    respostas: [
+      "1,82m",
+      "1,91m",
+      "1,87m",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quantos filhos Cristiano Ronaldo tem?",
+    respostas: [
+      "2 filhos",
+      "3 filhos",
+      "5 filhos",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Em que ano Cristiano Ronaldo se transferiu para a Juventus?",
+    respostas: [
+      "2020",
+      "2019",
+      "2018",
+    ],
+    correta: 2
+  },
+];
+
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
   const corretas = new Set()
